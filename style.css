@@ -48,7 +48,9 @@ header{
 
 @media (max-width:700px) {
     #card-container{
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
 }
 
@@ -59,7 +61,7 @@ header{
 
 .card-image{
     height: 70%;
-    width: 70%;
+    width: 100%;
 }
 
 .price{
